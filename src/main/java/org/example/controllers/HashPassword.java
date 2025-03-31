@@ -1,7 +1,7 @@
 package org.example.controllers;
 import org.mindrot.jbcrypt.BCrypt;
 
-public class Passwording {
+public class HashPassword {
     @org.jetbrains.annotations.NotNull
     public static String hashPassword(String plainPassword) {
         return BCrypt.hashpw(plainPassword, BCrypt.gensalt());

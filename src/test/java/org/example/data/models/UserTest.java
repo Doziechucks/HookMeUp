@@ -10,7 +10,7 @@ class UserTest {
     User user;
     @BeforeEach
     void setUp() {
-        user = new User("us001","username", "password");
+        user = new User("us001","username", "password", null);
     }
 
 
