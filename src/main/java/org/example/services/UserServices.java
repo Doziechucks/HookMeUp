@@ -8,7 +8,7 @@ import org.example.data.models.Weight;
 import java.util.List;
 
 public interface UserServices {
-    void saveUser(User user);
+    User saveUser(User user);
     void updateUser(User user);
     void deleteUser(User user);
     User getUserByEmail(String email);
